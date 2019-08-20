@@ -19,7 +19,7 @@ if user_input == "exit"
   
   else
  
- puts "Sorry! The computer guessed #{number}" 
+ puts "Sorry! The computer guessed #{number}." 
 
   
    end

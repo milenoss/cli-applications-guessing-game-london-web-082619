@@ -5,7 +5,7 @@ def run_guessing_game
 
 number = rand(6) + 1
 
-puts "Guess the Number"
+puts "Guess a number between 1 and 6:"
 
 user_input = gets.chomp
 
@@ -13,8 +13,8 @@ if user_input == "exit"
   puts "Goodbye!"
   
 elsif 
-user_input.to_i != number 
-puts "Sorry! The computer guessed #{number}" 
+ user_input.to_i != number 
+ puts "Sorry! The computer guessed #{number}" 
 
  elsif user_input.to_i === number 
  
